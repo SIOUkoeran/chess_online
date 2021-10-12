@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{12B5C923-9842-4035-9D3A-B31E6F11BC79}</ProjectGuid>
+    <RootNamespace>Network_Chess</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\Desktop\Network_Chess\Unit\BackGround.bmp" />
+    <None Include="..\..\..\..\..\Desktop\Network_Chess\Unit\Bishop.bmp" />
+    <None Include="..\..\..\..\..\..\Desktop\Unit\BishopMask.bmp" />
+    <None Include="..\..\..\..\..\..\Desktop\Unit\ChessMap.bmp" />
+    <None Include="..\..\..\..\..\..\Desktop\Unit\Danger.bmp" />
+    <None Include="..\..\..\..\..\..\Desktop\Unit\King.bmp" />
+    <None Include="..\..\..\..\..\..\Desktop\Unit\KingMask.bmp" />
+    <None Include="..\..\..\..\..\..\Desktop\Unit\knight.bmp" />
+    <None Include="..\..\..\..\..\..\Desktop\Unit\KnightMask.bmp" />
+    <None Include="..\..\..\..\..\..\Desktop\Unit\Move.bmp" />
+    <None Include="..\..\..\..\..\..\Desktop\Unit\MoveMask.bmp" />
+    <None Include="..\..\..\..\..\..\Desktop\Unit\Pawn.bmp" />
+    <None Include="..\..\..\..\..\..\Desktop\Unit\PawnMask.bmp" />
+    <None Include="..\..\..\..\..\..\Desktop\Unit\Queen.bmp" />
+    <None Include="..\..\..\..\..\..\Desktop\Unit\QueenMask.bmp" />
+    <None Include="..\..\..\..\..\..\Desktop\Unit\rook.bmp" />
+    <None Include="..\..\..\..\..\..\Desktop\Unit\RookMask.bmp" />
+    <None Include="..\..\..\..\..\..\Desktop\Unit\WBishop.bmp" />
+    <None Include="..\..\..\..\..\..\Desktop\Unit\WKing.bmp" />
+    <None Include="..\..\..\..\..\..\Desktop\Unit\WKnight.bmp" />
+    <None Include="..\..\..\..\..\..\Desktop\Unit\WPawn.bmp" />
+    <None Include="..\..\..\..\..\..\Desktop\Unit\WQueen.bmp" />
+    <None Include="..\..\..\..\..\..\Desktop\Unit\WRook.bmp" />
+    <None Include="..\..\..\..\..\..\Desktop\캡처.ico" />
+    <None Include="..\Unit\BackGround.bmp" />
+    <None Include="..\Unit\Bishop.bmp" />
+    <None Include="..\Unit\BishopMask.bmp" />
+    <None Include="..\Unit\ChessMap.bmp" />
+    <None Include="..\Unit\Danger.bmp" />
+    <None Include="..\Unit\King.bmp" />
+    <None Include="..\Unit\KingMask.bmp" />
+    <None Include="..\Unit\knight.bmp" />
+    <None Include="..\Unit\KnightMask.bmp" />
+    <None Include="..\Unit\Move.bmp" />
+    <None Include="..\Unit\MoveMask.bmp" />
+    <None Include="..\Unit\Pawn.bmp" />
+    <None Include="..\Unit\PawnMask.bmp" />
+    <None Include="..\Unit\Queen.bmp" />
+    <None Include="..\Unit\QueenMask.bmp" />
+    <None Include="..\Unit\rook.bmp" />
+    <None Include="..\Unit\RookMask.bmp" />
+    <None Include="..\Unit\WBishop.bmp" />
+    <None Include="..\Unit\WKing.bmp" />
+    <None Include="..\Unit\WKnight.bmp" />
+    <None Include="..\Unit\WPawn.bmp" />
+    <None Include="..\Unit\WQueen.bmp" />
+    <None Include="..\Unit\WRook.bmp" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ReadMe.txt" />
+    <None Include="res\icon1.ico" />
+    <None Include="res\Network_Chess.ico" />
+    <None Include="res\Network_Chess.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ClientSock.h" />
+    <ClInclude Include="Network_Chess.h" />
+    <ClInclude Include="Network_ChessDlg.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="ServerSock.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ClientSock.cpp" />
+    <ClCompile Include="Network_Chess.cpp" />
+    <ClCompile Include="Network_ChessDlg.cpp" />
+    <ClCompile Include="ServerSock.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Network_Chess.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="Network_Chess.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

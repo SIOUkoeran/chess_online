@@ -1,0 +1,81 @@
+﻿  stdafx.cpp
+  ServerSock.cpp
+  Network_ChessDlg.cpp
+c:\users\alstn\desktop\chess\network_chess\network_chess\network_chessdlg.cpp(211): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(2238): note: 'gethostbyname' 선언을 참조하십시오.
+c:\users\alstn\desktop\chess\network_chess\network_chess\network_chessdlg.cpp(213): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1868): note: 'inet_ntoa' 선언을 참조하십시오.
+c:\users\alstn\desktop\chess\network_chess\network_chess\network_chessdlg.cpp(541): warning C4804: '<': 연산에 'bool' 형식을 사용하는 것은 안전하지 않습니다.
+c:\users\alstn\desktop\chess\network_chess\network_chess\network_chessdlg.cpp(544): warning C4804: '<': 연산에 'bool' 형식을 사용하는 것은 안전하지 않습니다.
+  Network_Chess.cpp
+  ClientSock.cpp
+  코드를 생성하고 있습니다...
+  
+Network_Chess.rc(198): error RC2135: file not found: C:\Users\alstn\Desktop\Network_Chess\Unit\ChessMap.bmp
+  
+  
+Network_Chess.rc(200): error RC2135: file not found: C:\Users\alstn\Desktop\Network_Chess\Unit\WBishop.bmp
+  
+  
+Network_Chess.rc(202): error RC2135: file not found: C:\Users\alstn\Desktop\Network_Chess\Unit\WKing.bmp
+  
+  
+Network_Chess.rc(204): error RC2135: file not found: C:\Users\alstn\Desktop\Network_Chess\Unit\WKnight.bmp
+  
+  
+Network_Chess.rc(206): error RC2135: file not found: C:\Users\alstn\Desktop\Network_Chess\Unit\WPawn.bmp
+  
+  
+Network_Chess.rc(208): error RC2135: file not found: C:\Users\alstn\Desktop\Network_Chess\Unit\WQueen.bmp
+  
+  
+Network_Chess.rc(210): error RC2135: file not found: C:\Users\alstn\Desktop\Network_Chess\Unit\WRook.bmp
+  
+  
+Network_Chess.rc(212): error RC2135: file not found: C:\Users\alstn\Desktop\Network_Chess\Unit\Bishop.bmp
+  
+  
+Network_Chess.rc(214): error RC2135: file not found: C:\Users\alstn\Desktop\Network_Chess\Unit\King.bmp
+  
+  
+Network_Chess.rc(216): error RC2135: file not found: C:\Users\alstn\Desktop\Network_Chess\Unit\knight.bmp
+  
+  
+Network_Chess.rc(218): error RC2135: file not found: C:\Users\alstn\Desktop\Network_Chess\Unit\Pawn.bmp
+  
+  
+Network_Chess.rc(220): error RC2135: file not found: C:\Users\alstn\Desktop\Network_Chess\Unit\Queen.bmp
+  
+  
+Network_Chess.rc(222): error RC2135: file not found: C:\Users\alstn\Desktop\Network_Chess\Unit\rook.bmp
+  
+  
+Network_Chess.rc(224): error RC2135: file not found: C:\Users\alstn\Desktop\Network_Chess\Unit\BishopMask.bmp
+  
+  
+Network_Chess.rc(226): error RC2135: file not found: C:\Users\alstn\Desktop\Network_Chess\Unit\KingMask.bmp
+  
+  
+Network_Chess.rc(228): error RC2135: file not found: C:\Users\alstn\Desktop\Network_Chess\Unit\KnightMask.bmp
+  
+  
+Network_Chess.rc(230): error RC2135: file not found: C:\Users\alstn\Desktop\Network_Chess\Unit\PawnMask.bmp
+  
+  
+Network_Chess.rc(232): error RC2135: file not found: C:\Users\alstn\Desktop\Network_Chess\Unit\QueenMask.bmp
+  
+  
+Network_Chess.rc(234): error RC2135: file not found: C:\Users\alstn\Desktop\Network_Chess\Unit\RookMask.bmp
+  
+  
+Network_Chess.rc(236): error RC2135: file not found: C:\Users\alstn\Desktop\Network_Chess\Unit\Move.bmp
+  
+  
+Network_Chess.rc(238): error RC2135: file not found: C:\Users\alstn\Desktop\Network_Chess\Unit\MoveMask.bmp
+  
+  
+Network_Chess.rc(240): error RC2135: file not found: C:\Users\alstn\Desktop\Network_Chess\Unit\Danger.bmp
+  
+  
+Network_Chess.rc(242): error RC2135: file not found: C:\Users\alstn\Desktop\Network_Chess\Unit\BackGround.bmp
+  

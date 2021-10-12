@@ -1,0 +1,36 @@
+﻿빌드 시작: 2018-01-26 오후 1:43:34
+     1>2 노드의 "C:\Users\gksmf\Desktop\Network_Chess\Network_Chess\Network_Chess.vcxproj" 프로젝트(build 대상)입니다.
+     1>InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "Release\Network_Chess.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\Network_Chess.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\Network_Chess.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ClientSock.cpp Network_Chess.cpp Network_ChessDlg.cpp ServerSock.cpp
+         ClientSock.cpp
+         Network_Chess.cpp
+         Network_ChessDlg.cpp
+     1>Network_ChessDlg.cpp(536): warning C4804: '<' : 연산에 'bool' 형식을 사용하는 것은 안전하지 않습니다.
+     1>Network_ChessDlg.cpp(539): warning C4804: '<' : 연산에 'bool' 형식을 사용하는 것은 안전하지 않습니다.
+         ServerSock.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /l"0x0412" /IRelease\ /nologo /fo"Release\Network_Chess.res" Network_Chess.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\gksmf\Desktop\Network_Chess\Release\Network_Chess.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /ManifestFile:"Release\Network_Chess.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\gksmf\Desktop\Network_Chess\Release\Network_Chess.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\gksmf\Desktop\Network_Chess\Release\Network_Chess.lib" /MACHINE:X86 Release\Network_Chess.res
+         Release\ClientSock.obj
+         Release\Network_Chess.obj
+         Release\Network_ChessDlg.obj
+         Release\ServerSock.obj
+         Release\stdafx.obj
+         코드를 생성하고 있습니다.
+         코드를 생성했습니다.
+         Network_Chess.vcxproj -> C:\Users\gksmf\Desktop\Network_Chess\Release\Network_Chess.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\gksmf\Desktop\Network_Chess\Release\Network_Chess.exe;#1" /manifest Release\Network_Chess.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         "Release\Network_Chess.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "Release\Network_Chess.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"C:\Users\gksmf\Desktop\Network_Chess\Network_Chess\Network_Chess.vcxproj" 프로젝트를 빌드했습니다(build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:06.87

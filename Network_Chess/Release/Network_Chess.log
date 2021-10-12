@@ -1,0 +1,10 @@
+﻿  stdafx.cpp
+  ClientSock.cpp
+  Network_Chess.cpp
+c:\users\alstn\desktop\chess\network_chess\Network_ChessDlg.h(10): fatal error C1083: 포함 파일을 열 수 없습니다. 'mysql.h': No such file or directory
+  Network_ChessDlg.cpp
+c:\users\alstn\desktop\chess\network_chess\Network_ChessDlg.h(10): fatal error C1083: 포함 파일을 열 수 없습니다. 'mysql.h': No such file or directory
+  RankingDialog.cpp
+c:\users\alstn\desktop\chess\network_chess\Network_ChessDlg.h(10): fatal error C1083: 포함 파일을 열 수 없습니다. 'mysql.h': No such file or directory
+  ServerSock.cpp
+  SignUp.cpp
